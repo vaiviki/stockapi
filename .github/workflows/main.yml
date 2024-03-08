@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         python3 -m pip install --upgrade pip
-        pip install -r senti/requirements.txt
+        pip install -r stockapi/requirements.txt
     - name: train_model
       run: |
         python3 stockapi/app.py
