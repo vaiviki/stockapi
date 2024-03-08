@@ -1,0 +1,7 @@
+pandas
+xgboost
+scikit-learn
+pytest
+gradio
+fastapi
+uvicorn
