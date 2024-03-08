@@ -5,3 +5,5 @@ pytest
 gradio
 fastapi
 uvicorn
+black
+pylint
