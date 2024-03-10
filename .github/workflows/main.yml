@@ -28,4 +28,4 @@ jobs:
     
     - name: test with pytest
       run: |
-        pytest stockapi/tests/api_test.py
+        pytest tests/api_test.py
