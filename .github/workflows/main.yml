@@ -30,6 +30,15 @@ jobs:
       run: |
         python main.py
 
+    - name: Build package
+      run: python -m build
+      
+    - uses: actions/upload-artifact@v2
+      with:
+        name: my-build-package
+        path: dist/*.whl
+        retention-days: 1
+
   push-image:
     needs: [build]
     runs-on: ubuntu-latest
