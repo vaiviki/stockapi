@@ -1,9 +1,12 @@
+virtualenv
 pandas
 xgboost
 scikit-learn
 pytest
 gradio
+pydantic
 fastapi
 uvicorn
 black
 pylint
+pydantic_settings
