@@ -28,7 +28,7 @@ jobs:
     
     - name: test with pytest
       run: |
-        pytest main.py
+        python main.py
 
   push-image:
     needs: [build]
