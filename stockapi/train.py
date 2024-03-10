@@ -37,7 +37,7 @@ def TrainModel(dataTobeRetrained):
     original = original.dropna()
 
     best_model=model_train.generateModel(original)
-    best_model.save_model('/stockapi/stock_api_model.json')
+    best_model.save_model('stock_api_model.json')
 
 
 def getPredictions(dictParams):
